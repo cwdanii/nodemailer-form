@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha tests/unit/",
-    "start": "nodemon server.js"
-  }
-  ,
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "keywords": [
     "Hello"
   ],
